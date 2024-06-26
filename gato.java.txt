@@ -1,0 +1,22 @@
+public class gato {
+public static void main(String [] args)
+{
+
+Gato gato = new Gato ("mingau",3);
+String nome;
+int idade;
+
+public gato(){}
+
+public gato(String nome, int idade){
+this.nome = nome;
+this.idade = idade;
+
+}
+
+System.out.println("O nome do gato é:" + gato.nome);
+System.out.println("O nome do gato é:" + gato.idade);
+
+}
+}
+
